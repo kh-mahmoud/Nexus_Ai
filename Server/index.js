@@ -5,7 +5,7 @@ import dotenv from 'dotenv';
 
 
 const corsOptions = {
-  origin: 'http://localhost:5173',
+  origin: process.env.ALLOW_URL,
   optionsSuccessStatus: 200 
 }
 
@@ -17,14 +17,6 @@ const app = express()
 app.use(cors(corsOptions))
 app.use(express.json())
 
-
-// allow cross-origin requests
-app.use(function(req, res, next) {
-    res.header("Access-Control-Allow-Origin", "*");
-    res.header("Access-Control-Allow-Headers", 
-      "Origin, X-Requested-With, Content-Type, Accept");
-    next();
-  });
 
 
 //use the upload route
