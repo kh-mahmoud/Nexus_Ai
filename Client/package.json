@@ -1,0 +1,48 @@
+{
+  "name": "gemini-ai",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@chakra-ui/react": "^2.8.2",
+    "@clerk/clerk-react": "^5.4.2",
+    "@clerk/themes": "^2.1.21",
+    "@emotion/react": "^11.13.3",
+    "@emotion/styled": "^11.13.0",
+    "@google/generative-ai": "^0.17.1",
+    "axios": "^1.7.7",
+    "framer-motion": "^11.3.30",
+    "imagekitio-react": "^4.2.0",
+    "lottie-react": "^2.4.0",
+    "lucide-react": "^0.436.0",
+    "prop-types": "^15.8.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-intersection-observer": "^9.13.0",
+    "react-just-parallax": "^3.1.16",
+    "react-markdown": "^9.0.1",
+    "react-router-dom": "^6.26.1",
+    "react-typed": "^2.0.12"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.9.0",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.1",
+    "autoprefixer": "^10.4.20",
+    "eslint": "^9.9.0",
+    "eslint-plugin-react": "^7.35.0",
+    "eslint-plugin-react-hooks": "^5.1.0-rc.0",
+    "eslint-plugin-react-refresh": "^0.4.9",
+    "globals": "^15.9.0",
+    "postcss": "^8.4.41",
+    "tailwindcss": "^3.4.10",
+    "vite": "^5.4.1"
+  }
+}
