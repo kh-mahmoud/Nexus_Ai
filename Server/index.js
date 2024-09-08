@@ -6,7 +6,7 @@ import dotenv from 'dotenv';
 dotenv.config(); // Load the .env file
 
 const corsOptions = {
-  origin: process.env.ALLOW_URL,
+  origin: "https://nexus-ai-one.vercel.app",
   optionsSuccessStatus: 200 
 }
 
