@@ -1,12 +1,15 @@
 import express from "express"
 import cors from "cors"
 import uploader from "./routes/upload.routes.js"
+import dotenv from 'dotenv';
 
 
 const corsOptions = {
   origin: 'http://localhost:5173',
   optionsSuccessStatus: 200 
 }
+
+dotenv.config(); // Load the .env file
 
 
 const app = express()
