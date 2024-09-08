@@ -22,7 +22,7 @@ const Home = () => {
                 </h1>
                 <h2 className="text-xl font-semibold">Supercharge your creativity and productivity</h2>
 
-                <h3 className="max-w-[80%] font-normal h-12">
+                <h3 className="max-w-[80%] font-normal h-auto">
                     <ReactTyped
                         strings={[
                             "Unlock the power of conversational AI for seamless brainstorming, instant responses,and endless creativity.",
